@@ -8,4 +8,5 @@ public interface Visitor {
 
     int visit(CannedFood cannedFood);
     int visit(FreshFood freshFood);
+    int visit(SpecialOffer specialOffer);
 }

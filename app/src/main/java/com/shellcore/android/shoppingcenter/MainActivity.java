@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
                 new CannedFood(120, "Coca-Cola"),
                 new FreshFood(60, 2, "Platanos"),
                 new FreshFood(55, 4, "Tomates"),
-                new CannedFood(185, "Leche en polvo")
+                new CannedFood(185, "Leche en polvo"),
+                new SpecialOffer(80, 2, "Manzanas", 20)
         };
 
         int total = totalCost(items);
